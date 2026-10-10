@@ -1,400 +1,382 @@
 <!DOCTYPE html>
 <html lang="as">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>THE TOP CURRICULAR OF ASSAM</title>
-  
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE TOP CURRICULAR OF ASSAM</title>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-    }
-    body {
-      background-color: #f4f7f6;
-      color: #333;
-      line-height: 1.6;
-    }
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    body {
+      background-color: #f4f7f6;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
-    /* Top Social Bar */
-    .top-bar {
-      background-color: #111827;
-      color: #ffffff;
-      padding: 8px 5%;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      gap: 18px;
-      font-size: 14px;
-    }
-    .top-bar span {
-      margin-right: auto;
-      font-weight: 500;
-    }
-    .social-icon {
-      color: #fff;
-      font-size: 18px;
-      transition: transform 0.2s, color 0.2s;
-    }
-    .social-icon:hover {
-      transform: scale(1.2);
-    }
-    .social-icon.youtube:hover { color: #ff0000; }
-    .social-icon.instagram:hover { color: #e1306c; }
-    .social-icon.facebook:hover { color: #1877f2; }
+    /* Top Social Bar */
+    .top-bar {
+      background-color: #111827;
+      color: #ffffff;
+      padding: 8px 5%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 18px;
+      font-size: 14px;
+    }
+    .top-bar span {
+      margin-right: auto;
+      font-weight: 500;
+    }
+    .social-icon {
+      color: #fff;
+      font-size: 18px;
+      transition: transform 0.2s, color 0.2s;
+    }
+    .social-icon:hover {
+      transform: scale(1.2);
+    }
+    .social-icon.youtube:hover { color: #ff0000; }
+    .social-icon.instagram:hover { color: #e1306c; }
+    .social-icon.facebook:hover { color: #1877f2; }
 
-    /* Header with Logo and Name */
-    header {
-      background: linear-gradient(135deg, #0d47a1, #1e88e5);
-      color: white;
-      padding: 25px 5%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    }
-    header img.logo-img {
-      max-height: 85px;
-      width: auto;
-      border-radius: 50%;
-      background: white;
-      padding: 3px;
-    }
-    header h1 {
-      font-size: 32px;
-      font-weight: 800;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      text-align: center;
-    }
+    /* Header with Logo and Name */
+    header {
+      background: linear-gradient(135deg, #0d47a1, #1e88e5);
+      color: white;
+      padding: 25px 5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    header img.logo-img {
+      max-height: 85px;
+      width: auto;
+      border-radius: 50%;
+      background: white;
+      padding: 3px;
+    }
+    header h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: center;
+    }
 
-    /* Navigation Bar */
-    nav {
-      background-color: #1f2937;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    nav ul li a {
-      display: block;
-      padding: 14px 22px;
-      color: white;
-      font-weight: 600;
-      transition: background 0.3s;
-    }
-    nav ul li a:hover {
-      background-color: #2563eb;
-    }
+    /* Navigation Bar */
+    nav {
+      background-color: #1f2937;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav ul li a {
+      display: block;
+      padding: 14px 22px;
+      color: white;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background-color: #2563eb;
+    }
 
-    /* Main Container */
-    .container {
-      max-width: 1200px;
-      margin: 25px auto;
-      padding: 0 15px;
-      display: grid;
-      grid-template-columns: 2.2fr 1fr;
-      gap: 25px;
-    }
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 25px auto;
+      padding: 0 15px;
+      display: grid;
+      grid-template-columns: 2.2fr 1fr;
+      gap: 25px;
+    }
 
-    /* Section Cards */
-    .card {
-      background: #ffffff;
-      padding: 22px;
-      margin-bottom: 25px;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-      border-left: 6px solid #2563eb;
-    }
-    .card-title {
-      font-size: 22px;
-      color: #1e3a8a;
-      margin-bottom: 15px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      border-bottom: 2px solid #e5e7eb;
-      padding-bottom: 10px;
-    }
+    /* Section Cards */
+    .card {
+      background: #ffffff;
+      padding: 22px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      border-left: 6px solid #2563eb;
+    }
+    .card-title {
+      font-size: 22px;
+      color: #1e3a8a;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
+    }
 
-    /* Owner Card / Profile Section */
-    .owner-card {
-      text-align: center;
-      border-left-color: #10b981;
-    }
-    .owner-card img.profile-img {
-      width: 110px;
-      height: 110px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 10px;
-      border: 3px solid #2563eb;
-    }
-    .owner-card h3 {
-      font-size: 20px;
-      color: #1f2937;
-    }
-    .owner-card p {
-      font-size: 14px;
-      color: #6b7280;
-    }
-    .partner-tag {
-      display: inline-block;
-      background: linear-gradient(135deg, #ec4899, #f43f5e);
-      color: white;
-      padding: 4px 12px;
-      font-size: 13px;
-      border-radius: 20px;
-      margin-top: 10px;
-      font-weight: 600;
-      box-shadow: 0 2px 4px rgba(236, 72, 153, 0.3);
-    }
-    .partner-tag i {
-      color: #ffe4e6;
-      margin-right: 4px;
-    }
+    /* Owner Card / Profile Section */
+    .owner-card {
+      text-align: center;
+      border-left-color: #10b981;
+    }
+    .owner-card img.profile-img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 3px solid #2563eb;
+    }
+    .owner-card h3 {
+      font-size: 20px;
+      color: #1f2937;
+    }
+    .owner-card p {
+      font-size: 14px;
+      color: #6b7280;
+    }
 
-    /* Lists */
-    .update-list {
-      list-style: none;
-    }
-    .update-list li {
-      padding: 12px 0;
-      border-bottom: 1px dashed #e5e7eb;
-    }
-    .update-list li:last-child {
-      border-bottom: none;
-    }
-    .update-list li a {
-      color: #1d4ed8;
-      font-weight: 600;
-      font-size: 16px;
-    }
-    .update-list li a:hover {
-      text-decoration: underline;
-    }
-    .badge {
-      background-color: #ef4444;
-      color: white;
-      padding: 2px 8px;
-      font-size: 11px;
-      border-radius: 12px;
-      margin-left: 8px;
-      font-weight: bold;
-    }
+    /* Lists */
+    .update-list {
+      list-style: none;
+    }
+    .update-list li {
+      padding: 12px 0;
+      border-bottom: 1px dashed #e5e7eb;
+    }
+    .update-list li:last-child {
+      border-bottom: none;
+    }
+    .update-list li a {
+      color: #1d4ed8;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .update-list li a:hover {
+      text-decoration: underline;
+    }
+    .badge {
+      background-color: #ef4444;
+      color: white;
+      padding: 2px 8px;
+      font-size: 11px;
+      border-radius: 12px;
+      margin-left: 8px;
+      font-weight: bold;
+    }
 
-    /* Download Buttons */
-    .download-btn {
-      display: inline-block;
-      background-color: #10b981;
-      color: white;
-      padding: 8px 16px;
-      border-radius: 6px;
-      font-weight: 600;
-      margin-top: 8px;
-      transition: background 0.3s;
-    }
-    .download-btn:hover {
-      background-color: #059669;
-    }
+    /* Download Buttons */
+    .download-btn {
+      display: inline-block;
+      background-color: #10b981;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      margin-top: 8px;
+      transition: background 0.3s;
+    }
+    .download-btn:hover {
+      background-color: #059669;
+    }
 
-    /* Full YouTube Channel Playlist Player */
-    .youtube-playlist-container {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-      height: 0;
-      overflow: hidden;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .youtube-playlist-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
+    /* Full YouTube Channel Playlist Player */
+    .youtube-playlist-container {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .youtube-playlist-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
 
-    /* Sidebar Notice Board */
-    .notice-board {
-      border-left-color: #f59e0b;
-      background-color: #fffbebf5;
-    }
+    /* Sidebar Notice Board */
+    .notice-board {
+      border-left-color: #f59e0b;
+      background-color: #fffbebf5;
+    }
 
-    /* Footer */
-    footer {
-      background-color: #111827;
-      color: white;
-      text-align: center;
-      padding: 25px;
-      margin-top: 40px;
-    }
+    /* Footer */
+    footer {
+      background-color: #111827;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
 
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .container {
-        grid-template-columns: 1fr;
-      }
-      header {
-        flex-direction: column;
-      }
-      header h1 {
-        font-size: 24px;
-      }
-    }
-  </style>
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+      header {
+        flex-direction: column;
+      }
+      header h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Top Bar with Direct Social Media Links -->
-  <div class="top-bar">
-    <span>Follow The Top Curricular Of Assam:</span>
-    <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank" class="social-icon youtube" title="YouTube Channel"><i class="fab fa-youtube"></i></a>
-    <a href="https://www.instagram.com/" target="_blank" class="social-icon instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com/" target="_blank" class="social-icon facebook" title="Facebook Page"><i class="fab fa-facebook"></i></a>
-  </div>
+  <!-- Top Bar with Direct Social Media Links -->
+  <div class="top-bar">
+    <span>Follow The Top Curricular Of Assam:</span>
+    <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank" class="social-icon youtube" title="YouTube Channel"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.instagram.com/" target="_blank" class="social-icon instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/" target="_blank" class="social-icon facebook" title="Facebook Page"><i class="fab fa-facebook"></i></a>
+  </div>
 
-  <!-- Main Header with Logo PNG & Channel Name -->
-  <header>
-    <img src="logo.png" class="logo-img" alt="Logo" onerror="this.style.display='none'">
-    <h1>THE TOP CURRICULAR OF ASSAM</h1>
-  </header>
+  <!-- Main Header with Logo PNG & Channel Name -->
+  <header>
+    <img src="logo.png" class="logo-img" alt="Logo" onerror="this.style.display='none'">
+    <h1>THE TOP CURRICULAR OF ASSAM</h1>
+  </header>
 
-  <!-- Navigation Menu -->
-  <nav>
-    <ul>
-      <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
-      <li><a href="#jobs"><i class="fa fa-briefcase"></i> Job Vacancies</a></li>
-      <li><a href="#scholarships"><i class="fa fa-graduation-cap"></i> Scholarships</a></li>
-      <li><a href="#forms"><i class="fa fa-file-download"></i> Forms Download</a></li>
-      <li><a href="#videos"><i class="fa fa-video"></i> Videos</a></li>
-    </ul>
-  </nav>
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="#jobs"><i class="fa fa-briefcase"></i> Job Vacancies</a></li>
+      <li><a href="#scholarships"><i class="fa fa-graduation-cap"></i> Scholarships</a></li>
+      <li><a href="#forms"><i class="fa fa-file-download"></i> Forms Download</a></li>
+      <li><a href="#videos"><i class="fa fa-video"></i> Videos</a></li>
+    </ul>
+  </nav>
 
-  <!-- Main Layout -->
-  <div class="container" id="home">
-    
-    <!-- Main Content Area -->
-    <main>
-      
-      <!-- Job Vacancies Section -->
-      <section class="card" id="jobs">
-        <h2 class="card-title"><i class="fa fa-briefcase"></i> Latest Job Vacancies</h2>
-        <ul class="update-list">
-          <li>
-            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Assam Police Recruitment - Apply Online Details</a> <span class="badge">NEW</span>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">India Post GDS Assam Circle Recruitment Update</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Veterinary Field Assistant (VFA) Vacancy Notification</a>
-          </li>
-        </ul>
-      </section>
+  <!-- Main Layout -->
+  <div class="container" id="home">
+    
+    <!-- Main Content Area -->
+    <main>
+      
+      <!-- Job Vacancies Section -->
+      <section class="card" id="jobs">
+        <h2 class="card-title"><i class="fa fa-briefcase"></i> Latest Job Vacancies</h2>
+        <ul class="update-list">
+          <li>
+            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Assam Police Recruitment - Apply Online Details</a> <span class="badge">NEW</span>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">India Post GDS Assam Circle Recruitment Update</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Veterinary Field Assistant (VFA) Vacancy Notification</a>
+          </li>
+        </ul>
+      </section>
 
-      <!-- Scholarships Section -->
-      <section class="card" id="scholarships">
-        <h2 class="card-title"><i class="fa fa-graduation-cap"></i> Scholarships & Educational Updates</h2>
-        <ul class="update-list">
-          <li>
-            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Nijut Moina Asoni Guidelines & Form Submission</a> <span class="badge">URGENT</span>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Ishan Uday Scholarship NSP Portal Updates</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Dr. Banikanta Kakati Award (HS Scooty Scheme) List</a>
-          </li>
-        </ul>
-      </section>
+      <!-- Scholarships Section -->
+      <section class="card" id="scholarships">
+        <h2 class="card-title"><i class="fa fa-graduation-cap"></i> Scholarships & Educational Updates</h2>
+        <ul class="update-list">
+          <li>
+            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Nijut Moina Asoni Guidelines & Form Submission</a> <span class="badge">URGENT</span>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Ishan Uday Scholarship NSP Portal Updates</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@TheTopCurricularOfAssam" target="_blank">Dr. Banikanta Kakati Award (HS Scooty Scheme) List</a>
+          </li>
+        </ul>
+      </section>
 
-      <!-- Download Forms Section -->
-      <section class="card" id="forms">
-        <h2 class="card-title"><i class="fa fa-file-download"></i> Bonafide & PDF Forms Download</h2>
-        <p style="margin-bottom: 12px;">Download important PDF forms required for college admissions and official work:</p>
-        <ul class="update-list">
-          <li>
-            <strong>Bonafide Student Certificate Format (Standard PDF)</strong><br>
-            <a href="https://drive.google.com/file/d/1S9sGLGtJCiWJIiRxqcX6QFbpPJB4RtjR/view?usp=drivesdk" target="_blank" class="download-btn"><i class="fa fa-download"></i> Download Bonafide PDF</a>
-          </li>
-        </ul>
-      </section>
+      <!-- Download Forms Section -->
+      <section class="card" id="forms">
+        <h2 class="card-title"><i class="fa fa-file-download"></i> Bonafide & PDF Forms Download</h2>
+        <p style="margin-bottom: 12px;">Download important PDF forms required for college admissions and official work:</p>
+        <ul class="update-list">
+          <li>
+            <strong>Bonafide Student Certificate Format (Standard PDF)</strong><br>
+            <a href="https://drive.google.com/file/d/1S9sGLGtJCiWJIiRxqcX6QFbpPJB4RtjR/view?usp=drivesdk" target="_blank" class="download-btn"><i class="fa fa-download"></i> Download Bonafide PDF</a>
+          </li>
+        </ul>
+      </section>
 
-      <!-- Video Section: Complete Channel Uploads Playlist -->
-      <section class="card" id="videos">
-        <h2 class="card-title"><i class="fab fa-youtube" style="color:red;"></i> Latest Channel Videos & Playlist</h2>
-        <p style="font-size: 14px; margin-bottom: 10px; color: #4b5563;">
-          চেনেলৰ সকলোবোৰ নতুন আৰু পুৰণি ভিডিঅ’ ইয়াতে স্বয়ংক্ৰিয়ভাৱে (Auto) প্লে’ হ’ব:
-        </p>
-        <div class="youtube-playlist-container">
-          <iframe src="https://www.youtube.com/embed/videoseries?list=UU2A-XU_1mN14tJm0m2mU8fA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </section>
+      <!-- Video Section: Complete Channel Uploads Playlist -->
+      <section class="card" id="videos">
+        <h2 class="card-title"><i class="fab fa-youtube" style="color:red;"></i> Latest Channel Videos & Playlist</h2>
+        <p style="font-size: 14px; margin-bottom: 10px; color: #4b5563;">
+          চেনেলৰ সকলোবোৰ নতুন আৰু পুৰণি ভিডিঅ’ ইয়াতে স্বয়ংক্ৰিয়ভাৱে (Auto) প্লে’ হ’ব:
+        </p>
+        <div class="youtube-playlist-container">
+          <iframe src="https://www.youtube.com/embed/videoseries?list=UU2A-XU_1mN14tJm0m2mU8fA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
 
-    </main>
+    </main>
 
-    <!-- Sidebar Notices & Profile -->
-    <aside>
-      
-      <!-- Owner / Profile Photo Section -->
-      <div class="card owner-card">
-        <img src="profile.png" class="profile-img" alt="Omarjit Bora" onerror="this.style.display='none'">
-        <h3>Omarjit Bora</h3>
-        <p>Founder & Creator</p>
-        <div class="partner-tag">
-          <i class="fa fa-heart"></i> Trishna Baisha
-        </div>
-        <p style="font-size: 13px; color: #4b5563; margin-top: 8px;">THE TOP CURRICULAR OF ASSAM</p>
-      </div>
+    <!-- Sidebar Notices & Profile -->
+    <aside>
+      
+      <!-- Owner / Profile Photo Section -->
+      <div class="card owner-card">
+        <img src="profile.png" class="profile-img" alt="Omarjit Bora" onerror="this.style.display='none'">
+        <h3>Omarjit Bora</h3>
+        <p>Founder & Creator</p>
+        <p style="font-size: 13px; color: #4b5563; margin-top: 5px;">THE TOP CURRICULAR OF ASSAM</p>
+      </div>
 
-      <!-- Extra Notice Section -->
-      <div class="card notice-board">
-        <h3 class="card-title" style="color: #d97706;"><i class="fa fa-bell"></i> Extra Notices</h3>
-        <ul class="update-list">
-          <li>
-            <strong>College Admission:</strong> Samarth portal registration extended date notice.
-          </li>
-          <li>
-            <strong>Sewa Setu Update:</strong> Apply PRC and Caste Certificate online.
-          </li>
-        </ul>
-      </div>
+      <!-- Extra Notice Section -->
+      <div class="card notice-board">
+        <h3 class="card-title" style="color: #d97706;"><i class="fa fa-bell"></i> Extra Notices</h3>
+        <ul class="update-list">
+          <li>
+            <strong>College Admission:</strong> Samarth portal registration extended date notice.
+          </li>
+          <li>
+            <strong>Sewa Setu Update:</strong> Apply PRC and Caste Certificate online.
+          </li>
+        </ul>
+      </div>
 
-      <!-- YouTube Channel Link Card -->
-      <div class="card" style="text-align: center;">
-        <h3 style="margin-bottom: 10px;">Official YouTube</h3>
-        <p style="font-size: 14px; margin-bottom: 12px;">Subscribe for regular updates on Assam educational notifications.</p>
-        <a href="https://www.youtube.com/@TheTopCurricularOfAssam?sub_confirmation=1" target="_blank" class="download-btn" style="background-color: #ff0000; display: block;">
-          <i class="fab fa-youtube"></i> Subscribe Now
-        </a>
-      </div>
+      <!-- YouTube Channel Link Card -->
+      <div class="card" style="text-align: center;">
+        <h3 style="margin-bottom: 10px;">Official YouTube</h3>
+        <p style="font-size: 14px; margin-bottom: 12px;">Subscribe for regular updates on Assam educational notifications.</p>
+        <a href="https://www.youtube.com/@TheTopCurricularOfAssam?sub_confirmation=1" target="_blank" class="download-btn" style="background-color: #ff0000; display: block;">
+          <i class="fab fa-youtube"></i> Subscribe Now
+        </a>
+      </div>
 
-    </aside>
+    </aside>
 
-  </div>
+  </div>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 THE TOP CURRICULAR OF ASSAM. All Rights Reserved.</p>
-    <p style="font-size: 13px; color: #9ca3af; margin-top: 5px;">Created by Omarjit Bora & Trishna Baisha for Assam Students.</p>
-  </footer>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 THE TOP CURRICULAR OF ASSAM. All Rights Reserved.</p>
+    <p style="font-size: 13px; color: #9ca3af; margin-top: 5px;">Created by Omarjit Bora for Assam Students.</p>
+  </footer>
 
 </body>
 </html>
