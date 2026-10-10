@@ -56,14 +56,14 @@
     header {
       background: linear-gradient(135deg, #0d47a1, #1e88e5);
       color: white;
-      padding: 30px 5%;
+      padding: 25px 5%;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
-    header img {
+    header img.logo-img {
       max-height: 85px;
       width: auto;
       border-radius: 50%;
@@ -130,6 +130,28 @@
       gap: 10px;
       border-bottom: 2px solid #e5e7eb;
       padding-bottom: 10px;
+    }
+
+    /* Owner Card / Profile Section */
+    .owner-card {
+      text-align: center;
+      border-left-color: #10b981;
+    }
+    .owner-card img.profile-img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 3px solid #2563eb;
+    }
+    .owner-card h3 {
+      font-size: 20px;
+      color: #1f2937;
+    }
+    .owner-card p {
+      font-size: 14px;
+      color: #6b7280;
     }
 
     /* Lists */
@@ -227,9 +249,9 @@
     <a href="https://www.facebook.com/" target="_blank" class="social-icon facebook" title="Facebook Page"><i class="fab fa-facebook"></i></a>
   </div>
 
-  <!-- Main Header with PNG Logo & Channel Name -->
+  <!-- Main Header with Logo PNG & Channel Name -->
   <header>
-    <img src="logo.png" alt="Logo" onerror="this.style.display='none'">
+    <img src="logo.png" class="logo-img" alt="Logo" onerror="this.style.display='none'">
     <h1>THE TOP CURRICULAR OF ASSAM</h1>
   </header>
 
@@ -291,10 +313,6 @@
             <strong>Bonafide Student Certificate Format (Standard PDF)</strong><br>
             <a href="bonafide-form.pdf" download class="download-btn"><i class="fa fa-download"></i> Download Bonafide PDF</a>
           </li>
-          <li>
-            <strong>Income Certificate Standard Application Form</strong><br>
-            <a href="#" class="download-btn" style="background-color: #2563eb;"><i class="fa fa-download"></i> Download Form</a>
-          </li>
         </ul>
       </section>
 
@@ -303,7 +321,6 @@
         <h2 class="card-title"><i class="fab fa-youtube" style="color:red;"></i> Latest Channel Videos</h2>
         <div class="video-grid">
           <div class="video-card">
-            <!-- Replace YOUR_VIDEO_ID with actual YouTube video ID -->
             <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
             <p style="margin-top:5px;"><strong>Nijut Moina Asoni Full Form Fillup Guide</strong></p>
           </div>
@@ -316,9 +333,17 @@
 
     </main>
 
-    <!-- Sidebar Notices -->
+    <!-- Sidebar Notices & Profile -->
     <aside>
       
+      <!-- Owner / Profile Photo Section -->
+      <div class="card owner-card">
+        <img src="profile.png" class="profile-img" alt="Omarjit Bora" onerror="this.style.display='none'">
+        <h3>Omarjit Bora</h3>
+        <p>Founder & Creator</p>
+        <p style="font-size: 13px; color: #4b5563; margin-top: 5px;">THE TOP CURRICULAR OF ASSAM</p>
+      </div>
+
       <!-- Extra Notice Section -->
       <div class="card notice-board">
         <h3 class="card-title" style="color: #d97706;"><i class="fa fa-bell"></i> Extra Notices</h3>
@@ -348,7 +373,7 @@
   <!-- Footer -->
   <footer>
     <p>&copy; 2026 THE TOP CURRICULAR OF ASSAM. All Rights Reserved.</p>
-    <p style="font-size: 13px; color: #9ca3af; margin-top: 5px;">Created for Assam Students and Educational Updates.</p>
+    <p style="font-size: 13px; color: #9ca3af; margin-top: 5px;">Created by Omarjit Bora for Assam Students.</p>
   </footer>
 
 </body>
